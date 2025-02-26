@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+/* Add this to your CSS */
+.fixed-navbar {
+    pointer-events: none;  /* Allows clicks to pass through */
+}
